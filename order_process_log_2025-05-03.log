@@ -1,0 +1,88 @@
+=== New Order Process Started at 2025-05-03 15:08:48 ===
+Raw input: {"cart":[{"id":"5TMNW3","name":"Monogram Wildflowers Tie","price":345,"image":"./Images/tie inner.png","quantity":1},{"id":"7","name":"Gilet Matelassé Réversible","price":2790,"image":"./Images/vest inner1.png","quantity":1}],"customer":{"firstName":"Marwan","lastName":"Vosper","email":"manomero1975@gmail.com","phone":"0111 557 3567","address":"&ls"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5TMNW3
+                    [name] => Monogram Wildflowers Tie
+                    [price] => 345
+                    [image] => ./Images/tie inner.png
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [name] => Gilet Matelassé Réversible
+                    [price] => 2790
+                    [image] => ./Images/vest inner1.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => Marwan
+            [lastName] => Vosper
+            [email] => manomero1975@gmail.com
+            [phone] => 0111 557 3567
+            [address] => &ls
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 2, Total: 3135
+User ID: 1, Primary product ID: 5TMNW3
+Order created with ID: 54
+Checking if user_id column exists in order_items: No
+Processing cart item #1: Array
+(
+    [id] => 5TMNW3
+    [name] => Monogram Wildflowers Tie
+    [price] => 345
+    [image] => ./Images/tie inner.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 5TMNW3 or name: Monogram Wildflowers Tie
+Product not found with ID 5TMNW3, trying to find by name
+Found product by name: Array
+(
+    [product_id] => 9
+    [name] => Monogram Wildflowers Tie
+    [stock_quantity] => 27
+)
+
+Stock update result: Success
+New stock quantity: 26
+Order item inserted for product ID: 9
+Processing cart item #2: Array
+(
+    [id] => 7
+    [name] => Gilet Matelassé Réversible
+    [price] => 2790
+    [image] => ./Images/vest inner1.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 7 or name: Gilet Matelassé Réversible
+Found product by ID: Array
+(
+    [product_id] => 7
+    [name] => Gilet Matelassé Réversible
+    [stock_quantity] => 5
+)
+
+Stock update result: Success
+New stock quantity: 4
+Order item inserted for product ID: 7
+Transaction committed successfully
+=== Order Process Completed at 2025-05-03 15:08:48 ===
+

@@ -1,0 +1,649 @@
+=== New Order Process Started at 2025-05-04 17:34:35 ===
+Raw input: {"cart":[{"id":"8","name":"Mocassins Classiques","price":1110,"image":"./Images/shoes.png","quantity":2}],"customer":{"firstName":"Vitoria","lastName":"Vosper","email":"maro@gmail.com","phone":"0111 557 3567","address":"&whoami"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [name] => Mocassins Classiques
+                    [price] => 1110
+                    [image] => ./Images/shoes.png
+                    [quantity] => 2
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => Vitoria
+            [lastName] => Vosper
+            [email] => maro@gmail.com
+            [phone] => 0111 557 3567
+            [address] => &whoami
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 1, Total: 2220
+User ID: 0, Primary product ID: 8
+Error with full order insert: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+Trying simplified insert...
+Transaction rolled back due to error
+Error: Order Processing Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+=== Order Process Completed at 2025-05-04 17:34:35 ===
+
+=== New Order Process Started at 2025-05-04 17:35:09 ===
+Raw input: {"cart":[{"id":"8","name":"Mocassins Classiques","price":1110,"image":"./Images/shoes.png","quantity":2}],"customer":{"firstName":"Vitoria","lastName":"Vosper","email":"maro@gmail.com","phone":"0111 557 3567","address":"test"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [name] => Mocassins Classiques
+                    [price] => 1110
+                    [image] => ./Images/shoes.png
+                    [quantity] => 2
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => Vitoria
+            [lastName] => Vosper
+            [email] => maro@gmail.com
+            [phone] => 0111 557 3567
+            [address] => test
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 1, Total: 2220
+User ID: 0, Primary product ID: 8
+Error with full order insert: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+Trying simplified insert...
+Transaction rolled back due to error
+Error: Order Processing Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+=== Order Process Completed at 2025-05-04 17:35:10 ===
+
+=== New Order Process Started at 2025-05-04 17:35:17 ===
+Raw input: {"cart":[{"id":"8","name":"Mocassins Classiques","price":1110,"image":"./Images/shoes.png","quantity":2}],"customer":{"firstName":"Vitoria","lastName":"Vosper","email":"maro@gmail.com","phone":"0111 557 3567","address":"test"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [name] => Mocassins Classiques
+                    [price] => 1110
+                    [image] => ./Images/shoes.png
+                    [quantity] => 2
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => Vitoria
+            [lastName] => Vosper
+            [email] => maro@gmail.com
+            [phone] => 0111 557 3567
+            [address] => test
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 1, Total: 2220
+User ID: 0, Primary product ID: 8
+Error with full order insert: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+Trying simplified insert...
+Transaction rolled back due to error
+Error: Order Processing Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+=== Order Process Completed at 2025-05-04 17:35:17 ===
+
+=== New Order Process Started at 2025-05-04 17:35:21 ===
+Raw input: {"cart":[{"id":"8","name":"Mocassins Classiques","price":1110,"image":"./Images/shoes.png","quantity":2}],"customer":{"firstName":"Vitoria","lastName":"Vosper","email":"maro@gmail.com","phone":"0111 557 3567","address":"test"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [name] => Mocassins Classiques
+                    [price] => 1110
+                    [image] => ./Images/shoes.png
+                    [quantity] => 2
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => Vitoria
+            [lastName] => Vosper
+            [email] => maro@gmail.com
+            [phone] => 0111 557 3567
+            [address] => test
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 1, Total: 2220
+User ID: 0, Primary product ID: 8
+Error with full order insert: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+Trying simplified insert...
+Transaction rolled back due to error
+Error: Order Processing Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tres_chic`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+=== Order Process Completed at 2025-05-04 17:35:21 ===
+
+=== New Order Process Started at 2025-05-04 17:39:16 ===
+Raw input: {"cart":[{"id":"8","name":"Mocassins Classiques","price":1110,"image":"./Images/shoes.png","quantity":2}],"customer":{"firstName":"Vitoria","lastName":"Vosper","email":"maro@gmail.com","phone":"0111 557 3567","address":"test"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [name] => Mocassins Classiques
+                    [price] => 1110
+                    [image] => ./Images/shoes.png
+                    [quantity] => 2
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => Vitoria
+            [lastName] => Vosper
+            [email] => maro@gmail.com
+            [phone] => 0111 557 3567
+            [address] => test
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 1, Total: 2220
+User ID: 2, Primary product ID: 8
+Order created with ID: 63
+Checking if user_id column exists in order_items: No
+Processing cart item #1: Array
+(
+    [id] => 8
+    [name] => Mocassins Classiques
+    [price] => 1110
+    [image] => ./Images/shoes.png
+    [quantity] => 2
+)
+
+Looking for product with ID: 8 or name: Mocassins Classiques
+Found product by ID: Array
+(
+    [product_id] => 8
+    [name] => Mocassins Classiques
+    [stock_quantity] => 53
+)
+
+Stock update result: Success
+New stock quantity: 51
+Order item inserted for product ID: 8
+Transaction committed successfully
+=== Order Process Completed at 2025-05-04 17:39:16 ===
+
+=== New Order Process Started at 2025-05-04 18:15:33 ===
+Raw input: {"cart":[{"id":"7","name":"Gilet Matelassé Réversible","price":2790,"image":"./Images/vest outter.png","quantity":2},{"id":"5","name":"Costume Élégant","price":4250,"image":"./Images/Black_suit .png","quantity":1},{"id":"9","name":"Monogram Wildflowers Tie","price":345,"image":"./Images/tie.png","quantity":1},{"id":"4","name":"Imagination Perfume","price":330,"image":"./Images/perfume.png","quantity":1},{"id":"2","name":"Pont Neuf 35mm Belt","price":975,"image":"./Images/belt.png","quantity":1},{"id":"3","name":"Legacy Pilot Square Sunglasses","price":330,"image":"./Images/glasses.png","quantity":1},{"id":"6","name":"Chemise Blanche","price":910,"image":"./Images/white shirt inner.png","quantity":1},{"id":"14","name":"Off-White Chemise","price":900,"image":"./Images/White shirt inner1.png","quantity":1},{"id":"17","name":"Beige Shirt","price":499,"image":"./Images/beige shirt.png","quantity":1},{"id":"8","name":"Mocassins Classiques","price":1110,"image":"./Images/shoes.png","quantity":1}],"customer":{"firstName":"marcel ","lastName":"coler","email":"maro@gmail.com","phone":"0111 557 3567","address":"test"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 7
+                    [name] => Gilet Matelassé Réversible
+                    [price] => 2790
+                    [image] => ./Images/vest outter.png
+                    [quantity] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [name] => Costume Élégant
+                    [price] => 4250
+                    [image] => ./Images/Black_suit .png
+                    [quantity] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [name] => Monogram Wildflowers Tie
+                    [price] => 345
+                    [image] => ./Images/tie.png
+                    [quantity] => 1
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [name] => Imagination Perfume
+                    [price] => 330
+                    [image] => ./Images/perfume.png
+                    [quantity] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 2
+                    [name] => Pont Neuf 35mm Belt
+                    [price] => 975
+                    [image] => ./Images/belt.png
+                    [quantity] => 1
+                )
+
+            [5] => Array
+                (
+                    [id] => 3
+                    [name] => Legacy Pilot Square Sunglasses
+                    [price] => 330
+                    [image] => ./Images/glasses.png
+                    [quantity] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 6
+                    [name] => Chemise Blanche
+                    [price] => 910
+                    [image] => ./Images/white shirt inner.png
+                    [quantity] => 1
+                )
+
+            [7] => Array
+                (
+                    [id] => 14
+                    [name] => Off-White Chemise
+                    [price] => 900
+                    [image] => ./Images/White shirt inner1.png
+                    [quantity] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 17
+                    [name] => Beige Shirt
+                    [price] => 499
+                    [image] => ./Images/beige shirt.png
+                    [quantity] => 1
+                )
+
+            [9] => Array
+                (
+                    [id] => 8
+                    [name] => Mocassins Classiques
+                    [price] => 1110
+                    [image] => ./Images/shoes.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => marcel 
+            [lastName] => coler
+            [email] => maro@gmail.com
+            [phone] => 0111 557 3567
+            [address] => test
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 10, Total: 15229
+User ID: 1, Primary product ID: 7
+Order created with ID: 64
+Checking if user_id column exists in order_items: No
+Processing cart item #1: Array
+(
+    [id] => 7
+    [name] => Gilet Matelassé Réversible
+    [price] => 2790
+    [image] => ./Images/vest outter.png
+    [quantity] => 2
+)
+
+Looking for product with ID: 7 or name: Gilet Matelassé Réversible
+Found product by ID: Array
+(
+    [product_id] => 7
+    [name] => Gilet Matelassé Réversible
+    [stock_quantity] => 4
+)
+
+Stock update result: Success
+New stock quantity: 2
+Order item inserted for product ID: 7
+Processing cart item #2: Array
+(
+    [id] => 5
+    [name] => Costume Élégant
+    [price] => 4250
+    [image] => ./Images/Black_suit .png
+    [quantity] => 1
+)
+
+Looking for product with ID: 5 or name: Costume Élégant
+Found product by ID: Array
+(
+    [product_id] => 5
+    [name] => Costume Élégant
+    [stock_quantity] => 20
+)
+
+Stock update result: Success
+New stock quantity: 19
+Order item inserted for product ID: 5
+Processing cart item #3: Array
+(
+    [id] => 9
+    [name] => Monogram Wildflowers Tie
+    [price] => 345
+    [image] => ./Images/tie.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 9 or name: Monogram Wildflowers Tie
+Found product by ID: Array
+(
+    [product_id] => 9
+    [name] => Monogram Wildflowers Tie
+    [stock_quantity] => 27
+)
+
+Stock update result: Success
+New stock quantity: 26
+Order item inserted for product ID: 9
+Processing cart item #4: Array
+(
+    [id] => 4
+    [name] => Imagination Perfume
+    [price] => 330
+    [image] => ./Images/perfume.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 4 or name: Imagination Perfume
+Found product by ID: Array
+(
+    [product_id] => 4
+    [name] => Imagination Perfume
+    [stock_quantity] => 24
+)
+
+Stock update result: Success
+New stock quantity: 23
+Order item inserted for product ID: 4
+Processing cart item #5: Array
+(
+    [id] => 2
+    [name] => Pont Neuf 35mm Belt
+    [price] => 975
+    [image] => ./Images/belt.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 2 or name: Pont Neuf 35mm Belt
+Found product by ID: Array
+(
+    [product_id] => 2
+    [name] => Pont Neuf 35mm Belt
+    [stock_quantity] => 15
+)
+
+Stock update result: Success
+New stock quantity: 14
+Order item inserted for product ID: 2
+Processing cart item #6: Array
+(
+    [id] => 3
+    [name] => Legacy Pilot Square Sunglasses
+    [price] => 330
+    [image] => ./Images/glasses.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 3 or name: Legacy Pilot Square Sunglasses
+Found product by ID: Array
+(
+    [product_id] => 3
+    [name] => Legacy Pilot Square Sunglasses
+    [stock_quantity] => 15
+)
+
+Stock update result: Success
+New stock quantity: 14
+Order item inserted for product ID: 3
+Processing cart item #7: Array
+(
+    [id] => 6
+    [name] => Chemise Blanche
+    [price] => 910
+    [image] => ./Images/white shirt inner.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 6 or name: Chemise Blanche
+Found product by ID: Array
+(
+    [product_id] => 6
+    [name] => Chemise Blanche
+    [stock_quantity] => 25
+)
+
+Stock update result: Success
+New stock quantity: 24
+Order item inserted for product ID: 6
+Processing cart item #8: Array
+(
+    [id] => 14
+    [name] => Off-White Chemise
+    [price] => 900
+    [image] => ./Images/White shirt inner1.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 14 or name: Off-White Chemise
+Found product by ID: Array
+(
+    [product_id] => 14
+    [name] => Off-White Chemise
+    [stock_quantity] => 6
+)
+
+Stock update result: Success
+New stock quantity: 5
+Order item inserted for product ID: 14
+Processing cart item #9: Array
+(
+    [id] => 17
+    [name] => Beige Shirt
+    [price] => 499
+    [image] => ./Images/beige shirt.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 17 or name: Beige Shirt
+Found product by ID: Array
+(
+    [product_id] => 17
+    [name] => Beige Shirt
+    [stock_quantity] => 21
+)
+
+Stock update result: Success
+New stock quantity: 20
+Order item inserted for product ID: 17
+Processing cart item #10: Array
+(
+    [id] => 8
+    [name] => Mocassins Classiques
+    [price] => 1110
+    [image] => ./Images/shoes.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 8 or name: Mocassins Classiques
+Found product by ID: Array
+(
+    [product_id] => 8
+    [name] => Mocassins Classiques
+    [stock_quantity] => 51
+)
+
+Stock update result: Success
+New stock quantity: 50
+Order item inserted for product ID: 8
+Transaction committed successfully
+=== Order Process Completed at 2025-05-04 18:15:33 ===
+
+=== New Order Process Started at 2025-05-04 18:16:48 ===
+Raw input: {"cart":[{"id":"2","name":"Pont Neuf 35mm Belt","price":975,"image":"./Images/belt.png","quantity":1}],"customer":{"firstName":"maro","lastName":"sherif","email":"maro@gmail.com","phone":"0111 557 3567","address":"test"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [name] => Pont Neuf 35mm Belt
+                    [price] => 975
+                    [image] => ./Images/belt.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => maro
+            [lastName] => sherif
+            [email] => maro@gmail.com
+            [phone] => 0111 557 3567
+            [address] => test
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 1, Total: 975
+User ID: 1, Primary product ID: 2
+Order created with ID: 65
+Checking if user_id column exists in order_items: No
+Processing cart item #1: Array
+(
+    [id] => 2
+    [name] => Pont Neuf 35mm Belt
+    [price] => 975
+    [image] => ./Images/belt.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 2 or name: Pont Neuf 35mm Belt
+Found product by ID: Array
+(
+    [product_id] => 2
+    [name] => Pont Neuf 35mm Belt
+    [stock_quantity] => 14
+)
+
+Stock update result: Success
+New stock quantity: 13
+Order item inserted for product ID: 2
+Transaction committed successfully
+=== Order Process Completed at 2025-05-04 18:16:48 ===
+
+=== New Order Process Started at 2025-05-04 18:18:27 ===
+Raw input: {"cart":[{"id":"17","name":"Beige Shirt","price":499,"image":"./Images/beige shirt.png","quantity":1}],"customer":{"firstName":"Vitoria","lastName":"Vosper","email":"test@test.com","phone":"01115573567","address":"test"}}
+Decoded order data: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 17
+                    [name] => Beige Shirt
+                    [price] => 499
+                    [image] => ./Images/beige shirt.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstName] => Vitoria
+            [lastName] => Vosper
+            [email] => test@test.com
+            [phone] => 01115573567
+            [address] => test
+        )
+
+)
+
+Transaction started
+Pre-checking stock for all cart items
+All items have sufficient stock. Proceeding with order.
+Cart items: 1, Total: 499
+User ID: 1, Primary product ID: 17
+Order created with ID: 66
+Checking if user_id column exists in order_items: No
+Processing cart item #1: Array
+(
+    [id] => 17
+    [name] => Beige Shirt
+    [price] => 499
+    [image] => ./Images/beige shirt.png
+    [quantity] => 1
+)
+
+Looking for product with ID: 17 or name: Beige Shirt
+Found product by ID: Array
+(
+    [product_id] => 17
+    [name] => Beige Shirt
+    [stock_quantity] => 20
+)
+
+Stock update result: Success
+New stock quantity: 19
+Order item inserted for product ID: 17
+Transaction committed successfully
+=== Order Process Completed at 2025-05-04 18:18:27 ===
+

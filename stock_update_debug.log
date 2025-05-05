@@ -1,0 +1,62 @@
+Debug Log: 2025-05-03 15:09:26
+POST Data: Array
+(
+)
+
+GET Data: Array
+(
+    [action] => update_product_stock
+)
+
+Raw input: {"product_id":9,"quantity":1}
+Decoded data: Array
+(
+    [product_id] => 9
+    [quantity] => 1
+)
+
+Processing product_id: 9, quantity: 1
+Product query result: Array
+(
+    [product_id] => 9
+    [stock_quantity] => 26
+)
+
+Update result: Success
+Rows affected: 1
+Verification result: Array
+(
+    [stock_quantity] => 27
+)
+
+Debug Log: 2025-05-04 18:20:19
+POST Data: Array
+(
+)
+
+GET Data: Array
+(
+    [action] => update_product_stock
+)
+
+Raw input: {"product_id":17,"quantity":1}
+Decoded data: Array
+(
+    [product_id] => 17
+    [quantity] => 1
+)
+
+Processing product_id: 17, quantity: 1
+Product query result: Array
+(
+    [product_id] => 17
+    [stock_quantity] => 19
+)
+
+Update result: Success
+Rows affected: 1
+Verification result: Array
+(
+    [stock_quantity] => 20
+)
+

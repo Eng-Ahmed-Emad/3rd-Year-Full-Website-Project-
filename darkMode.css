@@ -1,0 +1,79 @@
+/* Dark mode base styles */
+.dark body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Header and navigation */
+.dark header {
+    border-color: #333;
+    background-color: #1a1a1a;
+}
+
+/* Background colors */
+.dark .bg-white {
+    background-color: #1a1a1a;
+}
+.dark .bg-gray-50 {
+    background-color: #2d2d2d;
+}
+.dark .bg-gray-100 {
+    background-color: #2d2d2d;
+}
+
+/* Text colors */
+.dark .text-black {
+    color: #ffffff;
+}
+.dark .text-gray-600 {
+    color: #d1d1d1;
+}
+.dark .text-gray-700 {
+    color: #e5e5e5;
+}
+.dark .text-gray-800 {
+    color: #f3f3f3;
+}
+
+/* Borders */
+.dark .border-b {
+    border-color: #333;
+}
+.dark .border {
+    border-color: #333;
+}
+
+/* Form elements */
+.dark select {
+    color: #ffffff;
+    background-color: #1a1a1a;
+}
+.dark option {
+    background-color: #1a1a1a;
+}
+
+/* Hover states */
+.dark .group-hover\:text-gray-700:hover {
+    color: #ffffff;
+}
+.dark .group-hover\:text-gray-800:hover {
+    color: #f3f3f3;
+}
+.dark .hover\:bg-gray-800:hover {
+    background-color: #333;
+}
+
+/* Product cards */
+.dark .group-hover\:opacity-90 {
+    opacity: 0.8;
+}
+
+/* Contact panel */
+.dark #contactPanel {
+    background-color: #2d2d2d;
+}
+
+/* Footer */
+.dark footer {
+    background-color: #2d2d2d;
+} 
